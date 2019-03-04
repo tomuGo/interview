@@ -1,11 +1,11 @@
 package coby;
 
-public class Student implements Cloneable{
+public class Student implements Cloneable {
 
     private Integer age;
 
-    public Student(Integer age){
-        this.age=age;
+    public Student(Integer age) {
+        this.age = age;
     }
 
     public Integer getAge() {
@@ -16,10 +16,10 @@ public class Student implements Cloneable{
         this.age = age;
     }
 
-    public Object clone(){
-        Student student=null;
+    public Object clone() {
+        Student student = null;
         try {
-            student=(Student) super.clone();
+            student = (Student) super.clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }

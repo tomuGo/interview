@@ -7,6 +7,6 @@ public class UserImpl implements UserManage {
     }
 
     public void setName(String name) {
-        System.out.println("调用了setName方法"+name);
+        System.out.println("调用了setName方法" + name);
     }
 }
